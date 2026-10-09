@@ -1,0 +1,15 @@
+{
+  "name": "fnaf-hun-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FNaF HUN közösségi weboldal — statikus oldal + Supabase adminpanel",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/verify.mjs",
+    "test:dom": "node tests/dom-test.mjs",
+    "serve": "python -m http.server 8080"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.2"
+  }
+}
